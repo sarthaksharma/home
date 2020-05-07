@@ -9,7 +9,9 @@ body {
     overflow:hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
-
+.roundrect {
+border-radius: 10px;
+}
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
@@ -194,12 +196,11 @@ a, a:visited {
     color: inherit;
 }
 audionet_logo {
-    max-height:20px;
+    max-height:10px;
+    border-radius: 25px;
+    align:left;
     width:auto;
     height:auto;
-}
-audionet {
-display:block;
 }
 #rightImage {
     width:100%;
@@ -207,6 +208,16 @@ display:block;
     background:linear-gradient(0deg,rgba(255, 50, 50, 0.3),rgba(255, 50, 50, 0.3)),url("./me.jpg") center center;
     background-size:cover;
     background-repeat:no-repeat;
+}
+@media screen and (max-width: 650px) {
+  #rightImage {
+        width:50%;
+        height:30vh;
+        background:linear-gradient(0deg,rgba(255, 50, 50, 0.3),rgba(255, 50, 50, 0.3)),url("./me.jpg") center center;
+        background-size:cover;
+        background-repeat:no-repeat;
+    display: block;
+  }
 }
 #top_part {
         border:0px;
