@@ -7,6 +7,9 @@
     <title>Sarthak Sharma</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+<!--    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<!--    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>-->
+<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
@@ -26,7 +29,8 @@
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+<!--    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>-->
+    <a id="contact" href="mailto:sarthaks@tepper.cmu.edu" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Sarthak Sharma</h1>
         <h2>Product Management / SRE / Distributed Systems</h2>
@@ -47,19 +51,118 @@
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>works.</h1>
+
+        <h1>Projects</h1>
         <section>
-            <h2>work title</h2>
+            <div>
+            <br>
+            <h2>AUDIONET</h2>
+<!--            <div id="audionet">-->
+<!--                <img src="Logo-1.png">-->
+<!--            </div>-->
+<!--            <table>-->
+<!--                <tr>-->
+<!--                    <td class="animated zoomIn"><a class="social" target="_blank" rel="noopener noreferrer"><img width="550" height="300" src="Logo-1.png"></a></td>-->
+<!--                </tr>-->
+<!--            </table>-->
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                A cross-platform text-to-speech application that allows users to organize and listen to their digital reading naturally.
             </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            <p align="justify">
+                Audionet was envisoned to provide a new aural experience in content consumption where users could organise and listen to digital texts by leveraging recent improvements in natural language processing
+                and speech technology (commonly referred to as text-to-speech or TTS). We aimed at allowing our users to listen to natural, human-like voices while consuming content through a service which would enable the users consume more contant in a typical day of their life, thereby helping them create more time.
+            </p>
+            <br>
+            <h2>Team</h2>
+            <div align="center">
+                <div class="column">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="adil.jpeg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Adil Haris</h3>
+                        <h4 class="title">Product Management (MSPM'20)</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a class="social" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/adilharis/"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="column">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="conlon.jpeg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Conlon Novak</h3>
+                        <h4 class="title">Design (MHCI'20)</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a class="social" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/conlon-novak/"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="column">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="helen.jpeg">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Helen Tsui</h3>
+                        <h4 class="title">Design (HCI'20)</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a class="social" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/helen-tsui/"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="column">
+                <div class="our-team">
+                    <div class="picture">
+                        <img class="img-fluid" src="sarthak.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Sarthak Sharma</h3>
+                        <h4 class="title">Product Management (MSPM'20)</h4>
+                    </div>
+                    <ul class="social">
+                        <li><a class="social" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sarthaksharma96/"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
+
+
+            <h2><br><br>How Does Audionet Help You Create More Time ?</h2>
+            <br>
+            <br>
+            <p align="center"><iframe id="audionet" align="center" width="80%" height="720" src="https://www.youtube.com/embed/6VAk5pcHKhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <br>
+            <br>
+            <h2>Journey</h2>
+            <div id="photos">
+                <div class="hvrbox"> <img onclick="magnify($(this).attr('src'))" src="set.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">Understanding how the external (Social, Economic and Technological) factors weigh into creating an opportunity gap for a text-to-speech applicaiton like Audionet.</div></div></div>
+                <div class="hvrbox"><img onclick="magnify($(this).attr('src'))" src="interview.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">Validating our hypotheisis and understanding customer needs better along with their pain points in order to rebundle and tweak our offerings.</div></div></div>
+                <div class="hvrbox"><img onclick="magnify($(this).attr('src'))" src="vf-1.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">Analysing the desirability, feasibility and viability of the service by mapping the flow of value between different stakeholders</div></div></div>
+                <div class="hvrbox"><img onclick="magnify($(this).attr('src'))" src="persona.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">Forming an initial hypothesis and a framework based on PESTLE, SET and POG analysis to identify a customer segment along with their needs.</div></div></div>
+                <div class="hvrbox"><img onclick="magnify($(this).attr('src'))" src="competitor.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">Understanding how Audionet is uniquely positioned with respect to its competitors and what are the key aspects of its differentialted value proposition that it provides its customers.</div></div></div>
+                <div class="hvrbox"><img onclick="magnify($(this).attr('src'))" src="vf-2.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">Revising the value flow as a result of extensive customer research and pivot away from students and visually impaired to focusing only on working professionals.</div></div></div>
+            </div>
+            <br>
+        </div>
+            <h2>The Pivot</h2>
+            <div class="hvrbox"><img id="photos_1" width="80%" onclick="magnify($(this).attr('src'))" src="pivot.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">"Pivoting is not the end of the disruption process, but the beginning of the next leg of your journey." - Jay Samit</div></div></div>
+            <div class="hvrbox"><img id="photos_1" width="80%" onclick="magnify($(this).attr('src'))" src="BMC.png"><div class="hvrbox-layer_top"><div class="hvrbox-text">With a refined value proposition backed by the customer research, we reinforced and highlighted some critical components of the Minumum Viable Product (MVP) for our text-to-speech service by articulating in the form of a Business Model Canvas.</div></div></div>
+
+<!--            <div id="used">-->
+<!--                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>-->
+<!--                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>-->
+<!--                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>-->
+<!--            </div>-->
+<!--            <button class="btn_one">button 1</button>-->
+<!--            <button class="btn_two">button 2</button>-->
+
         </section>
     </div>
 
@@ -78,7 +181,6 @@
                     </tr>
                 </table>
             </section>
-
             <section>
                 <h1>Skills</h1>
                 <div id="used">
@@ -101,7 +203,7 @@
         </div>
           <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>contact.</h1>
+            <h1>Contact</h1>
             <section>
                 <h2>contact me</h2>
                 <p>
