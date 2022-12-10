@@ -12,6 +12,10 @@ const mainBody = {
   message: " Building products one feature at a time ...",
   icons: [
     {
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/sarthaksharma96/",
+    },
+    {
       image: "fa-github",
       url: "https://github.com/sarthaksharma",
     },
@@ -20,29 +24,11 @@ const mainBody = {
       url: "https://www.instagram.com/__sarthaksharma/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/sarthaksharma96/",
-    },
-    {
       image: "fa-redhat",
       url: "https://rhtapps.redhat.com/verify/?certId=150-236-040",
     },
   ],
 };
-
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
   show: true,
@@ -50,8 +36,8 @@ const about = {
   imageLink: require("../editable-stuff/sarthak.png"),
   imageSize: 375,
   message:
-    "My name is Sarthak Sharma. I'm a Product Manager with experience in cloud computing, infrastructure, and security. A graduate from Carneige Mellon University, I love building products that leverage large scale distributed systems to empower users and businesses at scale. In my free time I like to dance, play tennis and explore the realm of technology.",
-  resume: "<LINK HERE>",
+    "I'm a Product Manager with experience in cloud computing, infrastructure, and security. A graduate from Carneige Mellon University, I love building products that leverage large scale distributed systems to empower users and businesses at scale. In my free time I like to dance, play tennis and explore the realm of technology.",
+  resume: "<CONTACT ME>",
 };
 
 // PROJECTS SECTION
@@ -75,12 +61,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/sarthak.png"),
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/sarthak.png"),
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -99,10 +85,9 @@ const skills = {
     { name: "Cloud Services (AWS, GCP, Azure)", value: 95 },
     { name: "Distributed Systems", value: 90 },
     { name: "Containers / Virtualization", value: 80 },
-    { name: "SQL", value: 75 },
-    { name: "C/C++", value: 65 },
-    { name: "Python", value: 90 },
-    { name: "Java", value: 55 },
+    { name: "SQL", value: 60 },
+    { name: "Python", value: 80 },
+    { name: "Java", value: 70 },
   ],
   softSkills: [
     { name: "Leadership", value: 80 },
@@ -129,21 +114,25 @@ const experiences = {
   data: [
     {
       role: 'Product Manager',
-      companylogo: require('../assets/img/lyft.png'),
+      companylogo: require('../assets/img/lyft.jpeg'),
+      imageSize: 375,
       date: 'Mar 2022 – Present',
     },
     {
       role: 'Sr. Product Manager - Tech ',
-      companylogo: require('../assets/img/aws.jpeg'),
+      companylogo: require('../assets/img/aws.png'),
+      imageSize: 375,
       date: 'May 2021 – Mar 2022',
     },
    {
       role: 'Site Reliability Engineer - II',
+      imageSize: 375,
       companylogo: require('../assets/img/mnet.png'),
       date: 'Jun 2017 – Jan 2021',
     },
    {
       role: 'Research Associate',
+      imageSize: 375,
       companylogo: require('../assets/img/iisc.png'),
       date: 'Jan 2017 – Jun 2017',
     },
